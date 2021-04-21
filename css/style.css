@@ -1,0 +1,124 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    
+                    body {
+                        background-color: #aaaaaa;
+                    }
+                    
+                    #sign-in {
+                        display: flex;
+                        border-radius: 8px;
+                        margin: 10px;
+                    }
+                    
+                    #cover-image {
+                        width: 50%;
+                        border-radius: 8px 0 0 8px;
+                        background-image: url('../img/woman.jpg');
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    
+                    #signin-card {
+                        width: 50%;
+                        padding: 30px;
+                        text-align: center;
+                        background-color: #ffffff;
+                        border-radius: 0 8px 8px 0;
+                    }
+                    
+                    #logo {
+                        width: 60px;
+                        height: 60px;
+                    }
+                    
+                    #signin-card h1 {
+                        color: #3b3b3b;
+                    }
+                    
+                    #signin-card h1 {
+                        color: #3b3b3b;
+                    }
+                    
+                    p#slogan {
+                        margin-top: 10px;
+                        margin-bottom: 30px;
+                        color: #808080;
+                    }
+                    
+                    input[type=email],
+                    input[type=password] {
+                        background-color: #d6d6d6;
+                        border: none;
+                        border-radius: 2px;
+                        width: 250px;
+                        padding: 10px;
+                    }
+                    
+                    input[type=email]:focus,
+                    input[type=password]:focus {
+                        border: 1px solid #000000;
+                    }
+                    
+                    button {
+                        border-radius: 3px;
+                        border: none;
+                        width: 270px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        padding: 5px 0;
+                        color: #ffffff;
+                    }
+                    
+                    button#btn-red {
+                        background-color: #e81b22;
+                    }
+                    
+                    button#btn-fb {
+                        background-color: #4267b2;
+                        margin-bottom: 10px;
+                    }
+                    
+                    button#btn-google {
+                        background-color: #4285f4;
+                    }
+                    
+                    #email_error_message,
+                    #password_error_message {
+                        display: none;
+                        color: red;
+                        font-size: 12px;
+                    }
+                    
+                    img#google-icon {
+                        height: 30px;
+                        width: 30px;
+                        border-radius: 2px;
+                        float: left;
+                        margin-left: 8px;
+                    }
+                    
+                    .fa-facebook-square {
+                        float: left;
+                        margin-left: 10px;
+                        font-size: 28px;
+                    }
+                    
+                    #agreement-text {
+                        margin-top: 10px;
+                        color: #808080;
+                        font-size: 14px;
+                    }
+                    
+                    #agreement-text a {
+                        color: #3b3b3b;
+                        text-decoration: none;
+                    }
+                    
+                    #agreement-text a:hover {
+                        color: #000000;
+                    }
