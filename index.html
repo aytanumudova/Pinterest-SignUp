@@ -10,37 +10,35 @@
     <script src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-</head>
 
-<body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v10.0" nonce="xBpnACFM"></script>
-    <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
-    <section id="sign-in">
-        <div id="cover-image"></div>
-        <div id="signin-card">
-            <div class="container">
-                <img src="img/pinterest_logo.png" alt="pinterest_logo" id="logo">
-                <h1>Welcome to Pinterest</h1>
-                <p id="slogan"><strong>The world's catalog of ideas</strong></p>
-                <input type="email" name="email" id="email" placeholder="Email address"><br>
-                <span id="email_error_message">You missed a bit! Don't forget to add your email address.</span><br>
-                <input type="password" name="password" placeholder="Create a password"><br>
-                <span id="password_error_message">Your password is too short. It needs to be 6+ characters.</span><br>
-                <button type="button" onclick="message()" class="buttons" id="btn-red">Continue</button>
-                <p style="color: #808080;">OR</p>
-                <button type="button" class="buttons" id="btn-fb"><i class="fab fa-facebook-square"></i>Continue with Facebook</button><br>
-                <button type="button" class="buttons" id="btn-google"><img src="img/google_logo.png"  id="google-icon"></img>
+    <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v10.0" nonce="xBpnACFM"></script>
+        <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+        <section id="sign-in">
+            <div id="cover-image"></div>
+            <div id="signin-card">
+                <div class="container">
+                    <img src="img/pinterest_logo.png" alt="pinterest_logo" id="logo">
+                    <h1>Welcome to Pinterest</h1>
+                    <p id="slogan"><strong>The world's catalog of ideas</strong></p>
+                    <input type="email" name="email" id="email" placeholder="Email address"><br>
+                    <span id="email_error_message">You missed a bit! Don't forget to add your email address.</span><br>
+                    <input type="password" name="password" placeholder="Create a password" minlength="6"><br>
+                    <span id="password_error_message">Your password is too short. It needs to be 6+ characters.</span><br>
+                    <button type="button" onclick="message()" class="buttons" id="btn-red">Continue</button>
+                    <p style="color: #808080;">OR</p>
+                    <button type="button" class="buttons" id="btn-fb"><i class="fab fa-facebook-square"></i>Continue with Facebook</button><br>
+                    <button type="button" class="buttons" id="btn-google"><img src="img/google_logo.png"  id="google-icon"></img>
                     Sign up with Google</button><br>
-                <p id="agreement-text">Create an account means you're okay with Pinterest's
-                    <a href="#">Terms of Service</a>,
-                    <a href="#">Privacy Policy</a> and
-                    <a href="#">Cookie use</a>.
-                </p>
+                    <p id="agreement-text">Create an account means you're okay with Pinterest's
+                        <a href="#">Terms of Service</a>,
+                        <a href="#">Privacy Policy</a> and
+                        <a href="#">Cookie use</a>.
+                    </p>
+                </div>
             </div>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
 
 </html>

@@ -11,3 +11,4 @@ function message() {
         document.getElementById('password_error_message').style.display = 'none';
     }
 }
+
